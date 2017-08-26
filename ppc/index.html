@@ -20,6 +20,7 @@
         zoom: 4,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       });
+
       layer_0 = new google.maps.FusionTablesLayer({
         query: {
           select: "col0",
@@ -29,6 +30,7 @@
         styleId: 2,
         templateId: 2
       });
+
       layer_1 = new google.maps.FusionTablesLayer({
         query: {
           select: "col25",
@@ -45,7 +47,7 @@
         google.maps.event.addDomListener(mapDiv, 'click', function() {
           window.alert('Map was clicked!');
         });
-      }
+    
   </script>
 
   
